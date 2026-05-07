@@ -98,27 +98,58 @@ a {
     left: 50%;
     transform: translateX(-50%);
     width: 250px;
-    background-color: rgb(255, 255, 255);
     color: rgb(21, 21, 21);
     display: flex;
-    border-radius: 15px;
     margin: 0; 
     padding: 0;
-    overflow: visible;
+    overflow:visible;
+    
 }
 
-.bar-item{
-    flex: 1;
+
+#box-1, #box-2, #box-3{
+   
+    background-color: rgb(255, 255, 255);
     text-align: center;
+    flex: 1;
+}
+
+#box-1{
+    
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+#box-2{
+
+    border-radius: 0px;
+   
+}
+
+#box-3{
+   
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
     
 }
 
 
-.bar-item:hover{
-    
+#box-1:hover{
+     background-color: rgb(235, 235, 235);
     cursor: pointer;
-    background-color: rgb(229, 229, 229); 
+} 
+
+#box-2:hover{
+    background-color: rgb(235, 235, 235);
+    cursor: pointer;
 }
+
+#box-3:hover{
+    background-color: rgb(235, 235, 235);
+    cursor: pointer;
+}
+ 
+
 
 /*
 Add the footer paragraph according to the design. 
