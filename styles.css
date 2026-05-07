@@ -114,23 +114,13 @@ a {
 }
 
 
-#item-1:hover{
-    border-radius: 15px 0px 0px 15px;
-     cursor: pointer;
-    background-color: rgb(229, 229, 229);
+.bar-item:hover{
+    
+    cursor: pointer;
+    background-color: rgb(229, 229, 229); 
 }
-#item-2:hover {
-    border-radius: 0px;
-     cursor: pointer;
-    background-color: rgb(229, 229, 229);
-}
-#item-3:hover {
-    border-top-right-radius: 15px;
-    border-bottom-right-radius: 15px;
-     cursor: pointer;
-    background-color: rgb(229, 229, 229);
-}
-/* 
+
+/*
 Add the footer paragraph according to the design. 
 Configure the anchor tag to open the link in a new tab.
 Forgotten how to do it? Google it! 
